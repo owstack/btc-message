@@ -1,0 +1,29 @@
+{
+  "name": "btccore-message",
+  "main": "./btccore-message.min.js",
+  "version": "1.0.3",
+  "homepage": "https://github.com/owstack/btccore-message",
+  "authors": [
+    "Open Wallet Stack"
+  ],
+  "description": "Bitcoin Message Verification and Signing for Btccore",
+  "moduleType": [
+    "globals"
+  ],
+  "keywords": [
+    "bitcoin",
+    "btccore",
+    "btc",
+    "satoshi",
+    "message",
+    "signing"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "name": "btccore-message",
+  "version": "1.0.3",
+  "description": "Bitcoin Messages for Btccore",
+  "author": "Open Wallet Stack <dev@openwalletstack.com>",
+  "main": "index.js",
+  "scripts": {
+    "lint": "gulp lint",
+    "test": "gulp test:node",
+    "coverage": "gulp coverage",
+    "build": "gulp"
+  },
+  "keywords": [
+    "bitcoin",
+    "btccore",
+    "btc",
+    "satoshi",
+    "message",
+    "signing"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/owstack/btccore-message.git"
+  },
+  "dependencies": {
+    "btccore-lib": "https://github.com/owstack/btccore-lib.git#master"
+  },
+  "devDependencies": {
+    "btccore-build": "owstack/btccore-build",
+    "brfs": "^1.3.0",
+    "chai": "~1.10.0",
+    "gulp": "^3.8.10"
+  },
+  "license": "MIT"
+}
