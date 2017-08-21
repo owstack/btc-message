@@ -10,6 +10,10 @@ btccore-message adds support for verifying and signing bitcoin messages in [Node
 
 See [the main btccore repo](https://github.com/owstack/btccore) for more information.
 
+## Attribution
+
+This repository was created by copy forking [bitcore-message commit 98a5431] (https://github.com/bitpay/bitcore-message/commit/98a54319246bfabd442f94cac42ab5c9486d3b46).
+
 ## Getting Started
 
 ```sh
