@@ -1,6 +1,5 @@
-<img src="http://btccore.io/css/images/module-message.png" alt="btccore message" height="35">
-# Bitcoin Message Verification and Signing for Btccore
-
+Btccore Message
+=======
 
 [![NPM Package](https://img.shields.io/npm/v/btccore-message.svg?style=flat-square)](https://www.npmjs.org/package/btccore-message)
 [![Build Status](https://img.shields.io/travis/owstack/btccore-message.svg?branch=master&style=flat-square)](https://travis-ci.org/owstack/btccore-message)
