@@ -5,13 +5,13 @@ Btccore Message
 [![Build Status](https://img.shields.io/travis/owstack/btccore-message.svg?branch=master&style=flat-square)](https://travis-ci.org/owstack/btccore-message)
 [![Coverage Status](https://img.shields.io/coveralls/owstack/btccore-message.svg?style=flat-square)](https://coveralls.io/r/owstack/btccore-message?branch=master)
 
-btccore-message adds support for verifying and signing bitcoin messages in [Node.js](http://nodejs.org/) and web browsers.
+Adds support for verifying and signing bitcoin messages in [Node.js](http://nodejs.org/) and web browsers.
 
 See [the main btccore repo](https://github.com/owstack/btccore) for more information.
 
 ## Attribution
 
-This repository was created by copy forking [bitcore-message commit 98a5431] (https://github.com/bitpay/bitcore-message/commit/98a54319246bfabd442f94cac42ab5c9486d3b46).
+This repository was created by copy forking [bitcore-message commit 98a5431](https://github.com/bitpay/bitcore-message/commit/98a54319246bfabd442f94cac42ab5c9486d3b46).
 
 ## Getting Started
 
