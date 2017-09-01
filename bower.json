@@ -1,7 +1,7 @@
 {
   "name": "btccore-message",
   "main": "./btccore-message.min.js",
-  "version": "1.0.3",
+  "version": "0.0.1",
   "homepage": "https://github.com/owstack/btccore-message",
   "authors": [
     "Open Wallet Stack"
