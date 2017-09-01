@@ -1,6 +1,6 @@
 {
   "name": "btccore-message",
-  "version": "1.0.3",
+  "version": "0.0.1",
   "description": "Bitcoin Messages for Btccore",
   "author": "Open Wallet Stack <dev@openwalletstack.com>",
   "main": "index.js",
