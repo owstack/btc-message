@@ -1,13 +1,11 @@
-Btccore Message
+Btc Message
 =======
 
-[![NPM Package](https://img.shields.io/npm/v/btccore-message.svg?style=flat-square)](https://www.npmjs.org/package/btccore-message)
-[![Build Status](https://img.shields.io/travis/owstack/btccore-message.svg?branch=master&style=flat-square)](https://travis-ci.org/owstack/btccore-message)
-[![Coverage Status](https://img.shields.io/coveralls/owstack/btccore-message.svg?style=flat-square)](https://coveralls.io/r/owstack/btccore-message?branch=master)
+[![NPM Package](https://img.shields.io/npm/v/btc-message.svg?style=flat-square)](https://www.npmjs.org/package/btc-message)
+[![Build Status](https://img.shields.io/travis/owstack/btc-message.svg?branch=master&style=flat-square)](https://travis-ci.org/owstack/btc-message)
+[![Coverage Status](https://img.shields.io/coveralls/owstack/btc-message.svg?style=flat-square)](https://coveralls.io/r/owstack/btc-message?branch=master)
 
 Adds support for verifying and signing bitcoin messages in [Node.js](http://nodejs.org/) and web browsers.
-
-See [the main btccore repo](https://github.com/owstack/btccore) for more information.
 
 ## Attribution
 
@@ -16,20 +14,20 @@ This repository was created by copy forking [bitcore-message commit 98a5431](htt
 ## Getting Started
 
 ```sh
-npm install btccore-message
+npm install btc-message
 ```
 
 ```sh
-bower install btccore-message
+bower install btc-message
 ```
 
 To sign a message:
 
 ```javascript
-var btccore = require('btccore-lib');
-var Message = require('btccore-message');
+var btcLib = require('btc-lib');
+var Message = require('btc-message');
 
-var privateKey = btccore.PrivateKey.fromWIF('cPBn5A4ikZvBTQ8D7NnvHZYCAxzDZ5Z2TSGW2LkyPiLxqYaJPBW4');
+var privateKey = btc.PrivateKey.fromWIF('cPBn5A4ikZvBTQ8D7NnvHZYCAxzDZ5Z2TSGW2LkyPiLxqYaJPBW4');
 var signature = Message('hello, world').sign(privateKey);
 ```
 
@@ -43,11 +41,11 @@ var verified = Message('hello, world').verify(address, signature);
 
 ## Contributing
 
-See [CONTRIBUTING.md](https://github.com/owstack/btccore/blob/master/CONTRIBUTING.md) on the main btccore repo for information about how to contribute.
+See [CONTRIBUTING.md](https://github.com/owstack/btc/blob/master/CONTRIBUTING.md) on the main btc repo for information about how to contribute.
 
 ## License
 
-Code released under [the MIT license](https://github.com/owstack/btccore/blob/master/LICENSE).
+Code released under [the MIT license](https://github.com/owstack/btc/blob/master/LICENSE).
 
-Copyright 2017 Open Wallet Stack. Btccore is a trademark maintained by Ope Wallet Stack.
+Copyright 2017 Open Wallet Stack.
 

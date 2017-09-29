@@ -4,16 +4,16 @@ var chai = require('chai');
 var expect = chai.expect;
 var should = chai.should();
 
-var btccore = require('btccore-lib');
-var Address = btccore.Address;
-var Signature = btccore.crypto.Signature;
+var btcLib = require('btc-lib');
+var Address = btcLib.Address;
+var Signature = btcLib.crypto.Signature;
 var Message = require('../');
 
 describe('Message', function() {
 
   var address = 'n1ZCYg9YXtB5XCZazLxSmPDa8iwJRZHhGx';
   var badAddress = 'mmRcrB5fTwgxaFJmVLNtaG8SV454y1E3kC';
-  var privateKey = btccore.PrivateKey.fromWIF('cPBn5A4ikZvBTQ8D7NnvHZYCAxzDZ5Z2TSGW2LkyPiLxqYaJPBW4');
+  var privateKey = btcLib.PrivateKey.fromWIF('cPBn5A4ikZvBTQ8D7NnvHZYCAxzDZ5Z2TSGW2LkyPiLxqYaJPBW4');
   var text = 'hello, world';
   var signatureString = 'H/DIn8uA1scAuKLlCx+/9LnAcJtwQQ0PmcPrJUq90aboLv3fH5fFvY+vmbfOSFEtGarznYli6ShPr9RXwY9UrIY=';
 
@@ -101,7 +101,7 @@ describe('Message', function() {
   });
 
   it('will verify with an uncompressed pubkey', function() {
-    var privateKey = new btccore.PrivateKey('5KYZdUEo39z3FPrtuX2QbbwGnNP5zTd7yyr2SC1j299sBCnWjss');
+    var privateKey = new btcLib.PrivateKey('5KYZdUEo39z3FPrtuX2QbbwGnNP5zTd7yyr2SC1j299sBCnWjss');
     var message = new Message('This is an example of a signed message.');
     var signature = message.sign(privateKey);
     var verified = message.verify(privateKey.toAddress(), signature);

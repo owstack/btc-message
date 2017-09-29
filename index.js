@@ -1,4 +1,6 @@
-var btccore = require('btccore-lib');
-btccore.Message = require('./lib/message');
+'use strict';
 
-module.exports = btccore.Message;
+var btcLib = require('btc-lib');
+btcLib.Message = require('./lib/message');
+
+module.exports = btc.Message;
