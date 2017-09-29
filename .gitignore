@@ -3,8 +3,8 @@ coverage
 node_modules
 
 npm-debug.log
-btccore-message.js
-btccore-message.min.js
+btc-message.js
+btc-message.min.js
 tests.js
 
 report

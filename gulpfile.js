@@ -1,5 +1,5 @@
 'use strict';
 var gulp = require('gulp');
 var owsTasks = require('ows-build');
-owsTasks('btccore', 'message');
+owsTasks('btc', 'message');
 gulp.task('default', ['lint', 'coverage']);
