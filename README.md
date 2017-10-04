@@ -1,6 +1,8 @@
 Btc Message
 =======
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/owstack/btc-message.svg)](https://greenkeeper.io/)
+
 [![NPM Package](https://img.shields.io/npm/v/btc-message.svg?style=flat-square)](https://www.npmjs.org/package/btc-message)
 [![Build Status](https://img.shields.io/travis/owstack/btc-message.svg?branch=master&style=flat-square)](https://travis-ci.org/owstack/btc-message)
 [![Coverage Status](https://img.shields.io/coveralls/owstack/btc-message.svg?style=flat-square)](https://coveralls.io/r/owstack/btc-message?branch=master)
