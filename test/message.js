@@ -4,7 +4,7 @@ var chai = require('chai');
 var expect = chai.expect;
 var should = chai.should();
 
-var btcLib = require('btc-lib');
+var btcLib = require('@owstack/btc-lib');
 var Address = btcLib.Address;
 var Signature = btcLib.crypto.Signature;
 var Message = require('../');

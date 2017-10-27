@@ -20,8 +20,8 @@ bower install btc-message
 To sign a message:
 
 ```javascript
-var btcLib = require('btc-lib');
-var Message = require('btc-message');
+var btcLib = require('@owstack/btc-lib');
+var Message = require('@owstack/btc-message');
 
 var privateKey = btc.PrivateKey.fromWIF('cPBn5A4ikZvBTQ8D7NnvHZYCAxzDZ5Z2TSGW2LkyPiLxqYaJPBW4');
 var signature = Message('hello, world').sign(privateKey);
