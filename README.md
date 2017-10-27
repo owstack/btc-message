@@ -7,10 +7,6 @@ Btc Message
 
 Adds support for verifying and signing bitcoin messages in [Node.js](http://nodejs.org/) and web browsers.
 
-## Attribution
-
-This repository was created by copy forking [bitcore-message commit 98a5431](https://github.com/bitpay/bitcore-message/commit/98a54319246bfabd442f94cac42ab5c9486d3b46).
-
 ## Getting Started
 
 ```sh
