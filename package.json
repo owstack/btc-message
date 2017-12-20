@@ -1,6 +1,6 @@
 {
   "name": "@owstack/btc-message",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Bitcoin message verification and signing.",
   "main": "index.js",
   "scripts": {
@@ -22,7 +22,7 @@
     "url": "https://github.com/owstack/btc-message.git"
   },
   "dependencies": {
-    "@owstack/btc-lib": "^0.0.3"
+    "@owstack/btc-lib": "^0.0.4"
   },
   "devDependencies": {
     "@owstack/ows-build": "^0.0.3",
